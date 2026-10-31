@@ -103,7 +103,7 @@ func print_long(dir, name string) {
 			name = name + " -> " + real_path
 		}
 	}
-	fmt.Printf("%s %d %s %s %d %s %s\n",
+	fmt.Printf("%s %2d %s %s %10d %s %s\n",
 		mode_string(file_stats.Mode),
 		file_stats.Nlink,
 		owner,
